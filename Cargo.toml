@@ -1,0 +1,12 @@
+[package]
+name = "e_series"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Utility to find numbers in an E series of preferred numbers."
+repository = "https://github.com/gemarcano/e_series"
+keywords = ["utility", "electronics", "E_series"]
+categories = ["command-line-utilities", "science"]
+
+[dependencies]
+clap = { version = "4.5.21", features = ["derive"] }
